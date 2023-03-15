@@ -1,0 +1,169 @@
+{
+  "adventure": {
+    "room": [
+      {
+        "id": 100,
+        "start": "true",
+        "name": "The University Centre",
+        "short_description": "This is the University Centre",
+        "long_description": "The University Centre is a large building in the center of campus",
+        "entrance": [
+          {
+            "id": 101,
+            "dir": "N"
+          },
+          {
+            "id": 104,
+            "dir": "W"
+          },
+          {
+            "id": 105,
+            "dir": "down"
+          },
+          {
+            "id": 106,
+            "dir": "up"
+          }
+        ]
+      },
+      {
+        "id": 101,
+        "name": "Johnson Green",
+        "short_description": "A green space",
+        "long_description": "a large open field where students gather",
+        "entrance": [
+          {
+            "id": 100,
+            "dir": "S"
+          },
+          {
+            "id": 102,
+            "dir": "W"
+          }
+        ],
+        "loot": [
+          {
+            "id": 2
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "name": "War Memorial Hall",
+        "short_description": "A lecture hall",
+        "long_description": "An old lecture hall on the west side of campus",
+        "entrance": [
+          {
+            "id": 101,
+			      "dir": "E"
+          },
+          {
+            "id": 103,
+            "dir": "S"
+          }
+        ],
+        "loot": [
+          {
+            "id": 2
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "name": "Reynolds building",
+        "short_description": "A university campus building",
+        "long_description": "The schools computer science building",
+        "entrance": [
+          {
+            "id": 102,
+			      "dir": "N"
+          },
+          {
+            "id": 104,
+            "dir": "S"
+          }
+        ],
+        "loot": [
+          {
+            "id": 3
+          }
+        ]
+      },
+      {
+        "id": 104,
+        "name": "Summerlee Science Complex",
+        "short_description": "A university campus building",
+        "long_description": "This is the schools science complex containing many chemicals and equipment",
+        "entrance": [
+          {
+            "id": 103,
+			      "dir": "N"
+          },
+          {
+            "id": 100,
+            "dir": "E"
+          }
+        ],
+        "loot": [
+          {
+            "id": 1
+          },
+          {
+            "id": 2
+          }
+        ]
+      },
+      {
+        "id": 105,
+        "name": "Aggies pub",
+        "short_description": "The basement of the University Centre",
+        "long_description": "An event space in the basement of the Univeristy Centre",
+        "entrance": [
+          {
+            "id": 100,
+			      "dir": "up"
+          }
+        ],
+        "loot": [
+          {
+            "id": 2
+          }
+        ]
+      },
+      {
+        "id": 106,
+        "name": "Student help services",
+        "short_description": "The upper floor of the University Centre",
+        "long_description": "An office where students can go for various academic needs",
+        "entrance": [
+          {
+            "id": 100,
+			      "dir": "down"
+          }
+        ],
+        "loot": [
+          {
+            "id": 3
+          }
+        ]
+      }
+    ],
+    "item": [
+      {
+        "id": 1,
+        "name": "potion",
+        "desc": "a potion in a red bottle"
+      },
+      {
+        "id": 2,
+        "name": "wand",
+        "desc": "an ornate wand carved from deep auburn wood"
+      },
+      {
+        "id": 3,
+        "name": "laptop",
+        "desc": "a mobile computer"
+      }
+    ]
+  }
+}
