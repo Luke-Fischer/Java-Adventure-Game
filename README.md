@@ -32,8 +32,6 @@ The default map:
     Item: Wand                           item: wand
 
     Room: Reynolds building
-    
-W                                                                          S
 
     item: Laptop                                                        
 
