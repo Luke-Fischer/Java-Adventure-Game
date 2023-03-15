@@ -6,7 +6,7 @@ clean: mvn clean
 compile: mvn compile
 execute: java:exec
 
-### Instructions for using the program
+## Instructions for using the program
 -Run the excecutable
 -You will be prompted wether or not you wish to run your own json file or use the default
 -if you chose your own: You must type the relative path of that file (i.e src\main\java\adventure\"Your json file")
