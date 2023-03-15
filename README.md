@@ -1,5 +1,5 @@
 ## Game Description
-An Adventure game where a user can upload an adventure (i.e rooms, equipment, abilties, ...etc in JSON format). The user can then play the game by visiting rooms and picking up items, falling into traps, ...etc.
+An adventure game where a user can upload an adventure (i.e rooms, equipment, abilties, ...etc in JSON format). The user can then play the game by visiting rooms and picking up items, falling into traps, ...etc.
 
 ## How to operate your program
 clean: mvn clean
