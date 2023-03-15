@@ -24,15 +24,21 @@ execute: java:exec
 -Exit the program by typing "exit"
 
 The default map: 
+
                                 N
+                                
     Room: War memorial                   Room: Johnson Green
+    
     Item: Wand                           item: wand
 
     Room: Reynolds building
+    
  W  item: Laptop                                                        E
 
     Room: Summerlee Science Complex       Room: University Centre
+    
     item: potion                          item: no item
+                                
                                 S
 
 
