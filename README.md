@@ -33,7 +33,9 @@ The default map:
 
     Room: Reynolds building
     
- W  item: Laptop                                                        E
+W                                                                          S
+
+    item: Laptop                                                        
 
     Room: Summerlee Science Complex       Room: University Centre
     
